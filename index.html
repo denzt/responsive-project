@@ -30,7 +30,9 @@
 
 <header>
   <div class="content-wrapper">
-      <a href ="#"><img src="" alt="unplugged logo"></a>
+      <div class="logo">
+        <a href ="#"><img src="" alt="unplugged logo"></a>
+      </div>
       <div class="header-divider"></div>
       <nav>
         <ul>
@@ -38,24 +40,81 @@
           <li><a href="about/index.html" target="_self">ABOUT</a></li>
         </ul>
       </nav>
+    </div>
 </header>
 
 <main>
-  <section>
+  <section class="hero-area">
+      <div class="content-wrapper">
     <img src="jake-malara-30679-unsplash.jpg" alt="hero image">
-    <h1>Retreat from the desk, return refreshed.</h1>
+    <h1 class="retreat-headliner">Retreat from the desk, return refreshed.</h1>
+    </div>
   </section>
 
   <aside>
-    <div class="sign-up-form">
-      <h3>Want to join the next retreat?</h3>
-      <p>Find out when we are holding our next retreat and how your company or team can sign up!</p>
+    <div class="content-wrapper">
+      <div class="form">
+      <h3>Want to join the next retreat?
+      </h3>
+      <p>Find out when we are holding our next retreat and how your company or team can sign up!
+    </p>
+  </div>
 
+    <div class= "form-description">
       <h3 class="cta-headliner">Find out more</h3>
-      <input type="text" name="name" value="email address">
-      <input type="button" value="Download Itinerary">
+      <p class="button-input">
+        <input type="text" name="name" value="email address">
+        <input type="button" value="Download Itinerary">
+      </p>
+      </div>
     </div>
   </aside>
+
+<section class="features">
+
+    <div class="features-content">
+    <h1>Have the work week you always dreamed of-without the bad WiFi.
+    </h1>
+
+<div class="content-wrapper">
+      <div class="fontawesome-icon">
+      <p >Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
+      <p >Private chef team providing on demand meals-just like your team kitchen.</p>
+      <p >Retreat facilitator to manage your day to day activities so you all get a chance to reset.</p>
+</div>
+<div class="fontawesome-icon">
+      <p>12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4 break rooms.</p>
+      <p>5 outdoor obstacle courses, including private beach 1/2 mile from bungalow.</p>
+      <p>Dedicated computer room for times that you must WiFi.</p>
+    </div>
+  </div>
+  </div>
+</section>
+
+
+<section class="reviews">
+<div class="content-wrapper">
+<div class="review">
+    <h1 class="review-header">Be a better team in 5 days, like these.
+    </h1>
+
+      <article class="review-content">
+        <div class= "bottling-img">
+          <img src="omar-lopez-29-6944-unsplash.jpg" alt="team image">
+        </div>
+        <div class="first-article">
+            <h3 class="review-content-header">LaCrue Bottling Co. October 2018
+          </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur.
+        </p>
+      </div>
+      </article>
+    </div>
+  </div>
+</section>
   <!-- Add your site or application content here -->
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
@@ -67,6 +126,7 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+
 </main>
 
 <footer>
