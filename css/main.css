@@ -431,10 +431,15 @@ display: flex;
 flex-flow: row wrap;
 justify-content: center;
 align-items: center;
+width: 240px;
 }
 
 .review-content{
   display: flex;
+}
+
+.first-article{
+  width: 320px;
 }
 
 .contact {
@@ -477,13 +482,22 @@ align-items: center;
 }
 
 .faq-content {
-  flex-basis: 30%;
+  width: 275px;
+  flex-flow: row wrap;
 }
 
+.question{
+  flex-flow: row nowrap;
+}
 
 .question-answer{
   display: flex;
+  flex-flow: row wrap;
+}
+
+.faq-p{
   flex-flow: column wrap;
+  width: 640px;
 }
 
 }
@@ -491,17 +505,56 @@ align-items: center;
 
 @media only screen and (min-width: 1200px){
   /*desktop styles here */
-header nav {
+
+
+.first-article{
+  width: 480px;
+}
+
+.icon-p {
   display: flex;
-  align-content: flex-start;
-  justify-content: flex-start;
+  flex-flow: column wrap;
 }
 
-nav ul li {
-    display: flex;
-    justify-content: flex-end;
+.features .features-content{
+  display: flex;
+  flex-flow: column wrap;
 }
 
+.fontawesome-icon{
+  display: flex;
+  flex-flow: row nowrap;
+  width: 800px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.mission-content .about-content{
+width: 960px;
+}
+
+.about-p{
+  width: 425px;
+}
+
+.info{
+  width: 320px;
+}
+
+.faq-content {
+  display: flex;
+  min-width: 435px;
+}
+
+.faq-p{
+  display: flex;
+  min-width: 960px;
+}
 
 }
 
